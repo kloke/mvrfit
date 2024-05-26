@@ -1,0 +1,14 @@
+Package: mvrfit
+Type: Package
+Title: Multivariate Rank-Based Regression
+Version: 0.1.0
+Date: 2024-05-26
+Author: John Kloke, Joseph McKean
+Maintainer: John Kloke <johndkloke@gmail.com>
+Description: Multivariate version of Rfit.  For multiple response variables, mostly uses lapply to repeatedly call functions in Rfit to create a simple interface and formated output.
+License: GPL (>= 2)
+Depends: R (>= 3.5.0), Rfit
+Suggests: profileR
+LazyLoad: yes
+LazyData: yes
+NeedsCompilation: no
